@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200;300;500;600&family=Outfit:wght@400;700&display=swap');
+
+
+
+/*mobile */
+
+    #bg {
+        background-color: hsl(212, 45%, 89%);
+        max-width: 375px;
+    }
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        margin: 90px 40px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 16px;
+        box-shadow: 0 40px 100px -50px grey;
+    
+    }
+     img{
+         width: 280px;
+        height: 300px;
+        border-radius: 12px;
+        margin: 15px;
+    }
+    .info{
+        margin: 19px auto;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        width: 250px;
+    }
+    h3{
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .info p{
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+    }
+
+
+
+/*desktop*/
+
+@media  screen and (max-width: 1900px){
+    #bg {
+        background-color: hsl(212, 45%, 89%);
+        max-width: 1440px;
+        box-shadow: 0 40px 100px -50px grey;
+        margin: 50px 30px;
+    }
+   
+}
